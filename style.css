@@ -34,12 +34,36 @@ body {
 }
 
 .tabela {
-    position: absolute; top: 12%;
+    position: absolute; top: 11.8%;
     margin-left: 26%;
 }
 
 .buttons {
-    height: 90px;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    height: 113px;
+    width: 257px;
+    border-radius: 10px;
+}
+
+.button-corrige {
+    background-color: red;
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+    height: 113px;
+    width: 257px;
+    border-radius: 10px;
+}
+
+.button-confirma {
+    background-color: green;
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+    height: 113px;
     width: 257px;
     border-radius: 10px;
 }
