@@ -67,3 +67,33 @@ body {
     width: 257px;
     border-radius: 10px;
 }
+
+.back-table {
+    background-color: rgb(255, 255, 255);
+    width: 1100px;
+    height: 332px;
+    border-radius: 10px;
+    position: absolute; top: 65%;
+    left: 21%;
+}
+
+.table-2 {
+    width: 97%;
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.th-2 {
+    background-color: #e0e0e0;
+}
+
+.th-2, .td-2 {
+    padding: 10px;
+    border: 1px solid #ccc; /* Bordas horizontais e verticais */
+    text-align: left;
+    border-color: rgb(0, 0, 0);
+    border: 3px solid;
+}
