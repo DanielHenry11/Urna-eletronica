@@ -27,3 +27,26 @@ body {
     margin-left: 2%;
     margin-top: 2%;
 }
+
+.square-je {
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(0, 0, 0);
+    height: 60px;
+    width: 540px;
+    float: right;
+    margin-right: 1.5%;
+    margin-top: -42.6%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+}
+
+.square-numbers {
+    background-color: rgb(26, 26, 26);
+    border: 1px solid rgb(0, 0, 0);
+    height: 578px;
+    width: 540px;
+    float: right;
+    margin-right: 1.5%;
+    margin-top: -38.5%;
+}
