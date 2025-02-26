@@ -42,11 +42,41 @@ body {
 }
 
 .square-numbers {
-    background-color: rgb(26, 26, 26);
-    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(41, 36, 36);
+    border: 1px solid rgb(44, 44, 44);
     height: 578px;
     width: 540px;
     float: right;
     margin-right: 1.5%;
     margin-top: -38.5%;
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    gap: 20px;
+}
+
+.numbers {
+    margin-top: 5px;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.corrige {
+    height: 80px;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+
+.confirma {
+    height: 80px;
+    width: 200px;
+    border-radius: 10px;
 }
