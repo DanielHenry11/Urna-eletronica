@@ -49,11 +49,13 @@ body {
     float: right;
     margin-right: 1.5%;
     margin-top: -38.5%;
+    
+}
+
+.group-numbers {
     display: grid;
     grid-template-columns: repeat(3, 160px);
     justify-content: center;
-    align-items: center;
-    align-content: flex-start;
     gap: 20px;
 }
 
@@ -68,15 +70,21 @@ body {
     cursor: pointer;
 }
 
+.numbers-2 {
+    margin-top: 1.5cm;
+    float: right;
+}
+
 .corrige {
     height: 80px;
     width: 200px;
     border-radius: 10px;
-    
+    background-color: crimson;
 }
 
 .confirma {
     height: 80px;
     width: 200px;
     border-radius: 10px;
+    background-color: chartreuse;
 }
